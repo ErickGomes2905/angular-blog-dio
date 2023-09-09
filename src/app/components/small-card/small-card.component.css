@@ -1,6 +1,6 @@
 .container__small-card{
-  width: 700px;
-  margin-bottom: 15px;
+  width: 600px;
+  margin-bottom:15px;
 }
 
 .container__small-card-content{
@@ -8,18 +8,22 @@
   flex-direction: row;
 }
 
-.small-card__photo > img {
+.container__small-card-separator{
+  margin-top: 10px;
+}
+
+.small-card__photo > img{
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
 }
 
-.small-card__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.small-card__title > h1 {
+  font-size: 18px;
 }
 
-.container__small-card__separator{
-  margin-top: 10px;
+.small-card__title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
